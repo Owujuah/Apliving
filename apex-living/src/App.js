@@ -54,7 +54,7 @@ function App() {
             <ModernNavbar />
             <main>
               <Routes>
-                <Route path="/Apliving" element={<ModernHome />} basename={"https://owujuah.github.io/Apliving/"} />
+                <Route path="/Apliving" element={<ModernHome />} />
                 <Route path="/properties" element={<Properties />} />
                 <Route path="/properties/:id" element={<PropertyDetailsWrapper />} />
                 <Route path="/auth" element={<AuthPage />} />
