@@ -49,12 +49,12 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <AuthProvider>
-        <Router>
+        <Router basename="/Apliving">
           <div className="app">
             <ModernNavbar />
             <main>
               <Routes>
-                <Route path="/Apliving" element={<ModernHome />} />
+                <Route path="/" element={<ModernHome />} />
                 <Route path="/properties" element={<Properties />} />
                 <Route path="/properties/:id" element={<PropertyDetailsWrapper />} />
                 <Route path="/auth" element={<AuthPage />} />
