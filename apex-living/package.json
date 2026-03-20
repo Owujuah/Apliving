@@ -2,7 +2,7 @@
   "name": "apex-living",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://owujuah.github.io/Apliving/ModernHome",
+  "homepage": "https://owujuah.github.io/Apliving/",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
