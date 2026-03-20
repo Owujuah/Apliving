@@ -49,14 +49,12 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <AuthProvider>
-        {/* ✅ Added basename to match your repository name */}
-        <Router basename="/Apliving">
+        <Router>
           <div className="app">
             <ModernNavbar />
             <main>
               <Routes>
-                {/* ✅ Changed from "/Apliving" to "/" – now it matches the base path */}
-                <Route path="/" element={<ModernHome />} />
+                <Route path="/Apliving" element={<ModernHome />} />
                 <Route path="/properties" element={<Properties />} />
                 <Route path="/properties/:id" element={<PropertyDetailsWrapper />} />
                 <Route path="/auth" element={<AuthPage />} />
